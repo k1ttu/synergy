@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Ubuntu&family=Yuji+Hentaigana+Akari&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,12 +19,14 @@
   }
 }
 
+
+.btn-purple{
+  background-image: linear-gradient(to bottom right , rgb(22,1,63) ,rgb(50,6,136));
+  
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+  font-family: 'Ubuntu', sans-serif;
+  
 }
